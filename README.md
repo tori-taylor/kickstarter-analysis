@@ -13,7 +13,8 @@ A high level explanation of how this chart was completed was by:
 -creating a pivot table for the desired data
 -creating a line chart
 ### Analysis of Outcomes Based on Goals
-This looked at outcomes of plays based on the fundrasing goal of the project. The purpose of this was to see if goal was a determinent of campiagn success. Line graph
+This looked at outcomes of plays based on the fundrasing goal of the project. The purpose of this was to see if goal was a determinent of campiagn success. 
+[Outcomes_vs_Goals].(https://github.com/tori-taylor/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png
 -This was created by making buckets based on goals (for example $1000 to $4999)
 -Using a countif function to count how many plays were successful / failed / cancelled for that specific goal range
 -Finding the percent success / failed / cancelled for each bucket
