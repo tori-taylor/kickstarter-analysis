@@ -8,17 +8,17 @@ The purpose of the assignment was to analyze the success rates of theater kickst
 ### Analysis of Outcomes Based on Launch Date
 The Analysis first looked at success rate of theater productions (considered a success if the campaign hit it's fundrasing goal)  by month. The purpose of this was to determine if certain months of the year were better to launch a theater campaign. This chart shows theater outcomes by launch month. ![Theater_Outcomes_vs_Launch](https://github.com/tori-taylor/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 A high level explanation of how this chart was completed was by: 
--breaking out the CATEGORY & SUBCATEGORY in the data set to PARENT CATEGORY and SUBCATEGORY so that theatres as a parent category could easily be extracted from the data set
--the launch date was converted into a readable format so the chart could be plotted by month
--creating a pivot table for the desired data
--creating a line chart
+- breaking out the CATEGORY & SUBCATEGORY in the data set to PARENT CATEGORY and SUBCATEGORY so that theatres as a parent category could easily be extracted from the data set
+- the launch date was converted into a readable format so the chart could be plotted by month
+- creating a pivot table for the desired data
+- creating a line chart
 ### Analysis of Outcomes Based on Goals
 This looked at outcomes of plays based on the fundrasing goal of the project. The purpose of this was to see if goal was a determinent of campiagn success. 
 ![Outcomes_vs_Goals](https://github.com/tori-taylor/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
--This was created by making buckets based on goals (for example $1000 to $4999)
--Using a countif function to count how many plays were successful / failed / cancelled for that specific goal range
--Finding the percent success / failed / cancelled for each bucket
--Plotting the data collected above with a line chart
+This was created by making buckets based on goals (for example $1000 to $4999)
+- Using a countif function to count how many plays were successful / failed / cancelled for that specific goal range
+- Finding the percent success / failed / cancelled for each bucket
+- Plotting the data collected above with a line chart
 ### Challenges and Difficulties Encountered
 I had no challenges with creating the line chart for analysis based on launch date. However possible issues could be using the incorrect range of data in the source for the pivot table therefore not captuing the full data set, incorrectly converting the dates and therefore making "month"not an avialble x acis, or instead doing a "count of outcomes"as your value in the pivot table doing an "sum" or "average".
 I had no issues creating the analysis for outcomes based on goals. An issue could have been if the countif function for bucket 1000 to 4999 was counting "greater than or equal to 1000" and "less than or equal to 4999", and bucket 5000 to 9999 was counting greater than or equal to 5000" and "less than or equal to 9999" you would have an issue if a goal was 4,999.50 as it would not get counted in either bucket.
